@@ -30,6 +30,11 @@ body.download .app-info {
     margin: 0 15%;
 }
 
+.landing-app img {
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
 .app-functions {
     width: 100%;
     display: block;
@@ -44,14 +49,19 @@ body.download .app-info {
     /* background: linear-gradient(to left, #28a5f5, #1e87f0) !important; */
     width: 100%;
     display: block;
-    padding: 100px 0;
+    padding: 100px 0 150px 0;
     color: #fff;
 }
 
 footer.main {
     background: linear-gradient(to left, #28a5f5, #1e87f0) !important;
     width: 100%;
-    padding: 50px 0;
+    padding: 25px 0;
+    color: #fff !important;
+    font-size: 13px;
+}
+
+footer.main a {
     color: #fff !important;
 }
 
@@ -65,4 +75,9 @@ footer.main {
 
 .uk-navbar-right {
     padding-right: 50px;
+}
+
+.uk-logo img {
+    width: 50px;
+    height: auto;
 }

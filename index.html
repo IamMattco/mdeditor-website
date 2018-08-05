@@ -29,10 +29,10 @@
         
                 <ul class="uk-navbar-nav">
                     <li>
-                        <a href="https://mdeditor.co/about.html">About</a>
+                        <a href="#about" uk-scroll>About</a>
                     </li>
                     <li>
-                        <a href="https://mdeditor.co/download.html">Download</a>
+                        <a href="#download" uk-scroll>Download</a>
                     </li>
                 </ul>
             </div>
@@ -53,9 +53,9 @@
             </div>
         </section>
 
-        <section class="app-info">
+        <section class="app-info bottom">
             <div class="container">
-                <h2>Why mdEditor?</h2>
+                <h2 id="about">Why mdEditor?</h2>
                 <p class="uk-text-lead">Why you should use our app?</p>
             </div>
         </section>
@@ -92,9 +92,14 @@
         <section class="quick-download">
             <div class="container">
                 <div class="uk-text-center">
-                    <h2>Download</h2>
+                    <h2 id="download">Download</h2>
                     <p class="uk-text-lead">Download and start using our awesome app</p>
-                    <a href="https://mdeditor.co/download.html" class="uk-button uk-button-secondary uk-button-large">Download</a>
+                    <div>
+                        <div class="uk-button-group">
+                            <button class="uk-button uk-button-default uk-button-large mr-40">Download for Mac</button>
+                            <button class="uk-button uk-button-primary uk-button-large">Download for Windows</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

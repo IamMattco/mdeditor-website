@@ -12,11 +12,40 @@ body.download .app-info {
     padding: 150px 0;
 }
 
+.uk-navbar-nav a {
+    color: #fff !important;
+}
+
+.uk-navbar-nav a:hover {
+    color: rgba(255,255,255,0.5) !important;
+}
+
 .app-info {
     width: 100%;
     display: block;
     text-align: center;
     padding: 50px 0;
+    color: #fff;
+}
+
+.app-info.bottom {
+    margin-top: 100px;
+}
+
+.app-info.bottom h2 {
+    color: #555;
+}
+
+.app-info.bottom p {
+    color:#666;
+}
+
+.app-info h2 {
+    color: #fff;
+}
+
+.app-info p {
+    color: #fff;
 }
 
 .app-screens {
@@ -80,4 +109,8 @@ footer.main a {
 .uk-logo img {
     width: 50px;
     height: auto;
+}
+
+.mr-40 {
+    margin-right: 40px;
 }
